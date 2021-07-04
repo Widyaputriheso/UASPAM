@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/acticity_menu"
+    tools:context=".menu">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/Cake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cake (Rp. 15000)"
+            />
+
+        <EditText
+            android:id="@+id/quantitycake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/Chiffon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiffon (Rp. 17000)"
+            />
+        <EditText
+            android:id="@+id/quantityChiffon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/Donut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donut (Rp. 7000)"
+            />
+        <EditText
+            android:id="@+id/quantitydonut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/Biscuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biscuit (Rp. 10000)"
+            />
+        <EditText
+            android:id="@+id/quantitybiscuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/Cookies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cookies (Rp. 12000)"
+            />
+        <EditText
+            android:id="@+id/quantityrcookies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/Brownies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brownies (Rp. 15000)"
+            />
+        <EditText
+            android:id="@+id/quantitybrownies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/Puding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="puding (Rp. 8000)"
+            />
+        <EditText
+            android:id="@+id/quantitypuding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah"
+            android:textSize="14dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan" />
+
+</LinearLayout>

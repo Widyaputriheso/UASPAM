@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Cake" type="id" />
+    <item name="Chiffon" type="id" />
+    <item name="button3" type="id" />
+    <item name="quantitycake" type="id" />
+    <item name="totalpesanan" type="id" />
+    <item name="pemesan" type="id" />
+    <item name="button" type="id"/>
+    <item name="quantitychiffon" type="id" />
+</resources>
