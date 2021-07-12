@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--ini adalah untuk text dari tulisan my bakery-->
     <EditText
         android:id="@+id/pemesan"
         android:layout_width="wrap_content"
@@ -19,6 +20,7 @@
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="394dp" />
 
+    <!--    ini untuk button menu pemesanan-->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -30,7 +32,7 @@
         tools:layout_editor_absoluteX="192dp"
         tools:layout_editor_absoluteY="388dp"
         android:layout_toRightOf="@+id/pemesan" />
-
+    <!--ini untuk button keluar aplikasi-->
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -44,6 +46,8 @@
         android:text="Keluar"
         tools:layout_editor_absoluteX="78dp"
         tools:layout_editor_absoluteY="388dp" />
+
+    <!--ini untuk memasukan gambar di tampilan menu my bakery -->
 
     <ImageView
         android:id="@+id/imageView2"

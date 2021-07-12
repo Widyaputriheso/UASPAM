@@ -14,6 +14,7 @@ public class menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         setContentView (R.layout.activity_menu);
+        //Untuk memasukan checkbox pada menu makan bakery
         final CheckBox cake = (CheckBox) findViewById (R.id.Cake);
         final CheckBox chiffon = (CheckBox) findViewById (R.id.Chiffon);
         final CheckBox donut = (CheckBox) findViewById (R.id.Donut);
@@ -21,7 +22,7 @@ public class menu extends AppCompatActivity {
         final CheckBox cookies = (CheckBox) findViewById (R.id.Cookies);
         final CheckBox brownies = (CheckBox) findViewById (R.id.Brownies);
         final CheckBox puding = (CheckBox) findViewById (R.id.Puding);
-
+        //Untuk memasukan jumblah item makanan My Bakery
         final EditText jml_Cake= (EditText) findViewById (R.id.quantitycake);
         final EditText jml_Chiffon= (EditText) findViewById (R.id.quantitychiffon);
         final EditText jml_Donut= (EditText) findViewById (R.id.quantitydonut);
@@ -30,18 +31,20 @@ public class menu extends AppCompatActivity {
         final EditText jml_Brownies=(EditText) findViewById (R.id.quantitybrownies);
         final EditText jml_Puding=(EditText) findViewById (R.id.quantitypuding);
 
-
+        //Kenapa int karena harga berbentuk angka sehingga saya menggunakn tipe data integer
+        //dibawah ini untuk menentukan masing-masing harga dari item penjualan
         final int harga_cake = 15000;
-        final int harga_chiffon = 17000;
+        final int harga_chiffon =  17000;
         final int harga_donut = 7000;
         final int harga_biscuit = 10000;
         final int harga_cookies = 12000;
         final int harga_brownies = 15000;
         final int harga_puding = 8000;
 
-
+        //Button pesan untuk mememesan makanan yang ada di menu
         Button pesan = (Button)findViewById(R.id.button3);
 
+        //ini berfungsi untuk merespon total orderan dari jumblah pesanan
         pesan.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick (View view){
@@ -97,6 +100,7 @@ public class menu extends AppCompatActivity {
                     totOrder += calc;
                 }
 
+                //untuk menjumblahkan orderan yang sudah di pesan
                 Intent myIntent = new Intent(menu.this, struk.class);
                 myIntent.putExtra("summaryOrder", summOrder);
                 myIntent.putExtra("totalOrder", totOrder);

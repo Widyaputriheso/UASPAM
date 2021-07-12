@@ -14,13 +14,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
+        <!--        untuk memasukan text tulisan dari cake-->
         <CheckBox
             android:id="@+id/Cake"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="cake (Rp. 15000)"
             />
-
+        <!--        untuk memasukan text jumblah dari cake -->
         <EditText
             android:id="@+id/quantitycake"
             android:layout_width="wrap_content"
@@ -144,7 +145,7 @@
             android:textSize="14dp"
             android:layout_alignParentRight="true"/>
     </RelativeLayout>
-
+    <!--ini untuk memasukan Button-->
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"

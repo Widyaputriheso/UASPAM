@@ -13,11 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        EditText pemesan = (EditText) findViewById (R.id.pemesan);
+        //Button menu langsung akan ke halaman menu
         Button menu = (Button) findViewById(R.id.button);
+        //Button keluar langsung keluar dari aplikasi
         Button keluar = (Button) findViewById(R.id.button2);
 
-
+        //Memasukan fungsi button keluar dari aplikasi
         keluar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Memasukan fungsi untuk pindah kemenu makan my bakery
         menu.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View v) {
@@ -33,6 +35,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(pindah);
             }
         });
-
     }
 }

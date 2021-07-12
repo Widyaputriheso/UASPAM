@@ -12,29 +12,33 @@
     android:paddingBottom="16dp"
     tools:context=".struk">
 
+    <!--ini untuk memasukan text pesanan anda-->
     <TextView
         android:id="@+id/pemesan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pesanan Anda:" />
 
+    <!--    ini untuk memasukan text total pesanan-->
     <TextView
         android:id="@+id/totalpesanan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp" />
 
+    <!--    ini untuk memasukan text total pembayaran-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total Pembayaran:" />
 
+    <!--    ini untuk memasukan text total harga-->
     <TextView
         android:id="@+id/totalharga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp" />
-
+    <!--    ini untuk memasukan text erimakasih sudah membeli Bakry murah enak dan terjangkau-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
